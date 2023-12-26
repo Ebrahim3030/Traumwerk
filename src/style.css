@@ -21,7 +21,7 @@ align-items: center;
 justify-content: space-between;
 
 width: 100%;
-height: 210px;
+height: 170px;
 position: fixed;
 margin-top: -10px;
 z-index: 2;
@@ -30,7 +30,7 @@ z-index: 2;
 }
 #header img{
   
-  padding: 18px 100px 0 65px;
+  padding: 40px 100px 0 65px;
   cursor: pointer;
 }
 h1{
@@ -178,10 +178,11 @@ h3{
   top: 0;
   left: 0;
   
+  
 }
 
 .close-button {
-  margin: 170px 0 0 78px;
+  margin: 170px 0 0 71px;
   
   cursor: pointer;
   background: rgb(243, 243, 243);
