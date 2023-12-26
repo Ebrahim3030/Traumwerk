@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="./src/style.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        // Get the header element by its ID
+        var header = document.getElementById("header");
+  
+        // Add a click event listener to the header
+        header.addEventListener("click", function() {
+          // Reload the page when the header is clicked
+          location.reload();
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div id="app">
+
+      <div id="header" >
+        <img src="./logo.png"/>
+        <img src="./ChloeWilson.png"/>
+        
+      </div>
+      <h3>
+        Home/Configrator/Collections
+      </h3>
+      <h1>
+        Collections
+      </h1>
+      <div id="container">
+        <div id="collections">
+          
+        </div>
+        <div id="options">
+          <img id="Willkommen" src="./Willkommen.png"/>
+        </div>
+
+      </div>
+
+
+
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

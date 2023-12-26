@@ -1,0 +1,224 @@
+[
+    {
+    "collectionName":"Letters With Love",
+    "image":"Rectangle13.png",
+    "options": [
+        { "name": "Option1", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option2", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option3", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option4", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option5", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option6", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option7", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option1", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option2", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option3", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option4", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option5", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option6", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option7", "image": "Rectangle 10.png" ,"type":"0.15 ct, roze gold"},
+        { "name": "Option1", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" }
+       
+        
+      ]
+    
+    
+    },
+
+
+    {
+    "collectionName":"Collection 1",
+    "image":"Group 31 (1).png",
+    "options": [
+        { "name": "Option1", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option2", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option3", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option4", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option5", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" }
+       
+        
+      ]
+    
+    },
+
+
+    {
+    "collectionName":"Collection 2",
+    "image":"Group 32.png",
+    "options": [
+        { "name": "Option1", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option2", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option3", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option4", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option5", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option6", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option7", "image": "Rectangle 10.png" ,"type":"0.15 ct, roze gold"},
+        { "name": "Option1", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option2", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option3", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option4", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option5", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option6", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option7", "image": "Rectangle 10.png" ,"type":"0.15 ct, roze gold"},
+        { "name": "Option1", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option2", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option3", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option4", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option5", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option6", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option7", "image": "Rectangle 10.png" ,"type":"0.15 ct, roze gold"}
+       
+        
+      ]
+        
+    },
+
+     {
+
+     "collectionName":"Collection 3",
+     "image":"Rectangle13.png",
+     "options": [
+        { "name": "Option1", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option2", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option3", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option4", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option5", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option6", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option7", "image": "Rectangle 10.png" ,"type":"0.15 ct, roze gold"},
+        { "name": "Option1", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option2", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option3", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option4", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option5", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option6", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option7", "image": "Rectangle 10.png" ,"type":"0.15 ct, roze gold"},
+        { "name": "Option1", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option2", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option3", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option4", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option5", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option6", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option7", "image": "Rectangle 10.png" ,"type":"0.15 ct, roze gold"},
+        { "name": "Option1", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option2", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option3", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option4", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option5", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option6", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option7", "image": "Rectangle 10.png" ,"type":"0.15 ct, roze gold"},
+        { "name": "Option1", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option2", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option3", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option4", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option5", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option6", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option7", "image": "Rectangle 10.png" ,"type":"0.15 ct, roze gold"},
+        { "name": "Option1", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option2", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option3", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option4", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option5", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option6", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+        { "name": "Option7", "image": "Rectangle 10.png" ,"type":"0.15 ct, roze gold"}
+       
+        
+      ]
+            
+     },
+
+
+     {
+     "collectionName":"Collection 1",
+     "image":"Group 31 (1).png",
+     "options": [
+         { "name": "Option1", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+         { "name": "Option2", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+         { "name": "Option3", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+         { "name": "Option4", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+         { "name": "Option5", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" }
+        
+         
+       ]
+     
+     },
+
+
+     {
+     "collectionName":"Collection 9",
+     "image":"Group 31 (1).png",
+     "options": [
+         { "name": "Option1", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+         { "name": "Option2", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+         { "name": "Option3", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+         { "name": "Option4", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+         { "name": "Option5", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" }
+        
+         
+       ]
+     
+     },
+
+
+     {
+     "collectionName":"Collection 2",
+     "image":"Group 32.png",
+     "options": [
+         { "name": "Option1", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+         { "name": "Option2", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+         { "name": "Option3", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+         { "name": "Option4", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+         { "name": "Option5", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+         { "name": "Option6", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+         { "name": "Option7", "image": "Rectangle 10.png" ,"type":"0.15 ct, roze gold"},
+         { "name": "Option1", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+         { "name": "Option2", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+         { "name": "Option3", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+         { "name": "Option4", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+         { "name": "Option5", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+         { "name": "Option6", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+         { "name": "Option7", "image": "Rectangle 10.png" ,"type":"0.15 ct, roze gold"},
+         { "name": "Option1", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+         { "name": "Option2", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+         { "name": "Option3", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+         { "name": "Option4", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+         { "name": "Option5", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+         { "name": "Option6", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+         { "name": "Option7", "image": "Rectangle 10.png" ,"type":"0.15 ct, roze gold"}
+        
+         
+       ]
+         
+     },
+
+
+     {
+     "collectionName":"Collection 2",
+     "image":"Group 32.png",
+     "options": [
+         { "name": "Option1", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+         { "name": "Option2", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+         { "name": "Option3", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+         { "name": "Option4", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+         { "name": "Option5", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+         { "name": "Option6", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+         { "name": "Option7", "image": "Rectangle 10.png" ,"type":"0.15 ct, roze gold"},
+         { "name": "Option1", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+         { "name": "Option2", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+         { "name": "Option3", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+         { "name": "Option4", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+         { "name": "Option5", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+         { "name": "Option6", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+         { "name": "Option7", "image": "Rectangle 10.png" ,"type":"0.15 ct, roze gold"},
+         { "name": "Option1", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+         { "name": "Option2", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+         { "name": "Option3", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+         { "name": "Option4", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+         { "name": "Option5", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+         { "name": "Option6", "image": "Rectangle 10.png","type":"0.15 ct, roze gold" },
+         { "name": "Option7", "image": "Rectangle 10.png" ,"type":"0.15 ct, roze gold"}
+        
+         
+       ]
+         
+     }
+]

@@ -1,0 +1,195 @@
+body{
+  display: block;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+#app{
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  height: 100vh;
+
+  
+  
+}
+
+
+#header{
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+width: 100%;
+height: 210px;
+position: fixed;
+margin-top: -10px;
+z-index: 2;
+
+
+}
+#header img{
+  
+  padding: 18px 100px 0 65px;
+  cursor: pointer;
+}
+h1{
+  color:#473a3a;
+  
+  margin: 10px 0 10px 70px;
+  font-size: 20px;
+
+  
+}
+h3{
+  color:#7a6f6f;
+ 
+  margin: 175px 0 0 50px;
+  font-size: 20px;
+  font-size: 10px;
+  cursor: pointer;
+}
+#empty{
+  height: 230px;
+}
+
+#container {
+  display: flex;
+  
+  column-gap: 20px;
+ 
+  align-items: flex-start; 
+  overflow: hidden;
+  height: 100%;
+ 
+}
+
+#collections {
+ 
+  width: 220px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 16px;
+  flex-direction: row; 
+  
+  
+ height: 100%;
+  overflow-y: scroll;
+}
+#collections::-webkit-scrollbar {
+  width: 10px;
+}
+
+#collections::-webkit-scrollbar-thumb {
+  background-color: #776464;
+  border-radius: 5px;
+}
+
+#collections::-webkit-scrollbar-track {
+  background-color: #ddd;
+}
+
+.collection-button {
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  padding: 4px;
+  align-items: center;
+  width: 150px;
+  height: 160px;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  transition: box-shadow 0.3s;
+}
+
+.collection-button:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.collection-button:active {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+.collection-button.clicked {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+#options {
+  width: 78%;
+  height: 100%;
+  display: flex;
+  column-gap: 40px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  
+  overflow-y: auto;
+  
+}
+#options::-webkit-scrollbar {
+  width: 10px;
+}
+
+#options::-webkit-scrollbar-thumb {
+  background-color: #776464;
+  border-radius: 5px;
+}
+
+#options::-webkit-scrollbar-track {
+  background-color: #ddd;
+}
+
+#Willkommen {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+}
+#options button{
+ background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+   cursor: pointer;
+
+  flex-direction: column;
+  align-items: center;
+  width: 190px;
+  height: 250px;
+  border-radius: 8px;
+  border:none ;
+  margin: 5px 0 40px 3px;
+  transition: box-shadow 0.2s;
+}
+#options button:hover{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+#options button:active{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.canvas-div {
+  height: 100vh;
+  background-color: rgb(209, 209, 209);
+  width: 100vw;
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  
+}
+
+.close-button {
+  margin: 170px 0 0 78px;
+  
+  cursor: pointer;
+  background: rgb(243, 243, 243);
+  border-width: 1px;
+  padding: 8px 30px;
+  border-radius: 15px;
+  color: rgb(88, 134, 119);
+  border-color: rgb(88, 134, 119);;
+
+
+}
