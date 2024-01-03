@@ -215,9 +215,10 @@ h3{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+  align-items: center; pointer-events: none;
  
 }
+
 .close-button {
   
   margin: 170px 0 0 71px;
@@ -236,10 +237,26 @@ h3{
 
 
 }
+
+/* Enable pointer events for other interactive elements */
+#diamond,
+#ProductOptions,
+#ProductConfig,
+.variant img,
+#stones,
+#alloys,
+#diamond-details {
+  pointer-events: auto;
+}
+
+#CloseProduct {
+  pointer-events: auto;
+}
+
 #config{
   display: flex;
   flex-direction: column;
-  row-gap: 20px;
+  row-gap: 5px;
   align-items: center;
  
 }
@@ -261,6 +278,7 @@ h3{
   border-width: 1px;
   border-color: rgb(6, 67, 117);
   display: none;
+  margin-bottom: 10px;
 
   
  
@@ -335,6 +353,7 @@ h3{
   display: flex;
   flex-wrap: nowrap;
   column-gap: 20px;
+  margin-bottom: -10px;
 }
 #contain{
   display: flex;

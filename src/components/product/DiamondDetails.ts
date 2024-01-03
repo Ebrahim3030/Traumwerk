@@ -2,13 +2,13 @@ export default function DiamondDetails(scale: string, colour: string, clarity: s
     let temp = document.createElement("template");
     const html = /*html*/ `<div id="diamond-details" >
       
-        <h2>
+        <h2 style="color:#52807E">
             ${scale}
         </h2>
 
         <div style="display:flex; column-gap:15px">
 
-            <div style="display:flex felx-direction:column">
+            <div style="display:flex felx-direction:column; color:#878787">
                 <div>Colour</div>
                 <div>Clarity </div>
                 <div>Cut </div>
@@ -16,7 +16,7 @@ export default function DiamondDetails(scale: string, colour: string, clarity: s
                 <div>Symmetry</div>
             </div>
 
-            <div style="display:flex felx-direction:column; color:rgb(0, 56, 30); font-weight:bold">
+            <div style="display:flex felx-direction:column; color:#52807E; font-weight:bold">
                 <div>${colour} </div>
                 <div>${clarity} </div>
                 <div>${cut} </div>

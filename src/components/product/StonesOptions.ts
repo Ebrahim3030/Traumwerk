@@ -4,10 +4,10 @@ export default function StonesOptiones(image:string,name:string,details:any[]) {
     let temp = document.createElement("template");
     const html = /*html*/ `<div style="cursor:pointer; display:flex; align-items: center;
     justify-content: center; flex-direction:column; row-gap:10px; padding:5px 2px;
-     border-radius: 20px; margin-right:5px;width:110px "  >
+     border-radius: 20px; margin-right:5px;width:110px;color:#777777 "  >
     
     <img src="./${image}"/>
-    <div>
+    <div ">
     ${name}
     </div>
     
@@ -36,13 +36,13 @@ let currentSelectedStonesOptiones: HTMLElement | null = null;
 function handleStonesOptionesClick(clickedStonesOptiones: HTMLElement) {
   
   if (currentSelectedStonesOptiones) {
-    currentSelectedStonesOptiones.style.border = "none";
+    currentSelectedStonesOptiones.style.color = "#777777";
     currentSelectedStonesOptiones.style.boxShadow="none"
   }
 
  
-  clickedStonesOptiones.style.border = "1px solid purple";
-  clickedStonesOptiones.style.boxShadow="0 0 5px rgb(202, 182, 67)"
+  clickedStonesOptiones.style.color = "black";
+//   clickedStonesOptiones.style.boxShadow="0 0 5px rgb(202, 182, 67)"
 
  
   currentSelectedStonesOptiones = clickedStonesOptiones;
