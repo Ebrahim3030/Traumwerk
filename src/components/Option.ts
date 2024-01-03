@@ -12,13 +12,13 @@ export default function Option(name: string, image: string,type:string) {
     const optionButton = temp.content.firstElementChild as HTMLElement;
 
 
-    //poping up the 3d div when button clicked
+    // poping up the 3d div when button clicked
     optionButton.addEventListener('click', () => {
     
-        
-        const show3dComponent = show3d();
-        document.body.appendChild(show3dComponent);
+        document.getElementById("canvas-div")!.style.visibility="visible"
+      
       });
+      
 
     
 

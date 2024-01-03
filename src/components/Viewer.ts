@@ -47,7 +47,7 @@ async function setupViewer(canvas:HTMLCanvasElement){
     await viewer.addPlugin(LightsUiPlugin)
 
     // Import and add a GLB file.
-    await viewer.load("./classic-watch.glb")
+    await viewer.load("./TR109.glb")
 
     // Load an environment map if not set in the glb file
     // await viewer.setEnvironmentMap("./assets/environment.hdr");

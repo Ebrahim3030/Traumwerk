@@ -1,31 +1,40 @@
+import configurations1 from "../products.json"; 
 import { setupViewer } from "./Viewer";
-
+import ProductConfig from "./product/ProductConfig";
 
 export default function show3d() {
-    let temp = document.createElement("template");
-    const html = /*html*/ `
-      <div class="canvas-div">
-      <canvas id='webGI-canvas'>
-
-      </canvas>
-       <div id='canvasUI'>
-       <button class="close-button">EXIT</button>
-       </div>
-        
-      </div>`;
-    temp.innerHTML = html;
-
+ 
     
-  
-    const show3dComponent = temp.content.firstElementChild as HTMLElement;
+    
+
+    const show3dComponent = document.getElementById("canvas-div") as HTMLElement
+   
+
+   
+
     const canvas= show3dComponent.querySelector('#webGI-canvas') as HTMLCanvasElement
     setupViewer(canvas)
-  //close the 3d div
+    
     const closeButton = show3dComponent.querySelector('.close-button') as HTMLElement;
     closeButton.addEventListener('click', () => {
-      
-      document.body.removeChild(show3dComponent);
-    });
   
-    return show3dComponent;
-  }
+    show3dComponent.style.visibility="hidden"
+    });
+    configurations1.forEach(element => {
+        const productConfig = ProductConfig(element.variants,element.stone_configs);
+        document.getElementById("ProductConfig")?.appendChild(productConfig!);
+      });
+      const close=document.getElementById("CloseProduct") as HTMLElement
+
+      close.addEventListener('click',()=>{
+        document.getElementById('ProductOptions')!.style.display="none"
+        document.getElementById("CloseProduct")!.style.display="none"
+        document.getElementById("details")!.style.display="none"
+       
+    
+       
+      })
+      
+      return show3dComponent;
+    
+}

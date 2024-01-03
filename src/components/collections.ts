@@ -15,7 +15,7 @@ export default function Collections(collectionName: string, image: string, optio
     const collectionElement = temp.content.firstElementChild as HTMLElement;
     
   
-    //styling the clicked collecion and calling the renderOptions functions
+    
     collectionElement.addEventListener('click', () => {
         const allCollectionElements = document.querySelectorAll('.collection-button');
         allCollectionElements.forEach(element => {
@@ -28,7 +28,7 @@ export default function Collections(collectionName: string, image: string, optio
     return collectionElement;
   }
   
- //render options function
+
   function renderOptions(options: any[]) {
     const optionsContainer = document.getElementById('options')!;
     

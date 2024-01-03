@@ -1,0 +1,398 @@
+[{
+    "id": "productId",
+    "name": "Elegant Ring",
+    "image_link": "https://picsum.photos/200/300",
+    "description": "An elegant ring with a beautiful diamond in the middle. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "measurements": "12mm x 12mm",
+    "article_number": "123456789",
+    "variants": [
+      {
+        "id": 129,
+        "art_no": 1234,
+        "name": "Gold 585 classic",
+        "image":"Group.png",
+        "alloys": [{
+            "image":"whitegold.png",
+        "name":"White Gold"},
+            {
+              "image":"yellowgold.png",
+              "name":"Yellow Gold"},
+              {
+                  "image":"rosegold.png",
+                  "name":"Rose Gold"}
+              ]
+      },
+      {
+        "id": 155,
+        "art_no": 3456,
+        "name": "Multicolor",
+        "image":"Group.png",
+        "alloys": [{
+            "image":"whitegold.png",
+            "name":"White Gold"},
+            {
+              "image":"yellowgold.png",
+              "name":"Yellow Gold"},
+              {
+                  "image":"rosegold.png",
+                  "name":"Rose Gold"},
+                  {
+                    "image":"yellowgold.png",
+                    "name":"Yellow Gold"},
+                    {
+                        "image":"rosegold.png",
+                        "name":"Rose Gold"}
+              ]
+        }
+        ]
+      
+    ,
+    "stone_configs": [
+      {
+        "position": "left",
+        "config": "c8a171ab6d6c1a1eda7c1a34fcbd78f2a1908a12",
+        "name": "Multicolor",
+        "image":"Union (1).png",
+        "stonesOptions":[{
+            "image":"ruby.png",
+            "name":"ruby",
+            "details":[{
+                "scale":"0.44ct",
+                "colour":"F",
+                "clarity":"Si2",
+                "cut":"Excellent",
+                "polish":"Good",
+                "symmetry":"Excellent"
+            },
+            {
+               "scale":"0.45ct",
+               "colour":"G",
+               "clarity":"Si2",
+               "cut":"Very Good",
+               "polish":"Excellent",
+               "symmetry":"Good"
+           },{
+               "scale":"0.47ct",
+               "colour":"S",
+               "clarity":"Si2",
+               "cut":"Good",
+               "polish":"Good",
+               "symmetry":"Good"
+           }
+            ]},
+            {
+              "image":"yellow.png",
+              "name":"Yellow Sapphire ",
+              "details":[{
+                "scale":"0.44ct",
+                "colour":"F",
+                "clarity":"VS1",
+                "cut":"Very Good",
+                "polish":"Very Good",
+                "symmetry":"Good"
+            },
+            {
+               "scale":"0.45ct",
+               "colour":"G",
+               "clarity":"Si5",
+               "cut":"Excellent",
+               "polish":"Fine",
+               "symmetry":"Good"
+           },{
+               "scale":"0.47ct",
+               "colour":"M",
+               "clarity":"Si2",
+               "cut":"Excellent",
+               "polish":"Very Good",
+               "symmetry":"Excellent"
+           }
+            ]},
+              {
+                  "image":"silver.png",
+                  "name":"Diamond",
+                  "details":[{
+                    "scale":"0.44ct",
+                    "colour":"F",
+                    "clarity":"Si2",
+                    "cut":"Very Good",
+                    "polish":"Very Good",
+                    "symmetry":"Good"
+                },
+                {
+                   "scale":"0.45ct",
+                   "colour":"F",
+                   "clarity":"sav",
+                   "cut":"Very Good",
+                   "polish":"Nice",
+                   "symmetry":"Very Good"
+               },{
+                   "scale":"0.47ct",
+                   "colour":"L",
+                   "clarity":"VH3",
+                   "cut":"Very Good",
+                   "polish":"Wow",
+                   "symmetry":"Niice"
+               }
+                ]}]
+      },
+      {
+        "position": "center",
+        "config": "d5200eeac6f2c2f13031970e96eae4e8907cd6e9",
+        "name": "Multicolor",
+        "image":"Union (2).png",
+        "stonesOptions":[{
+            "image":"ruby.png",
+            "name":"ruby",
+            "details":[{
+                "scale":"0.44ct",
+                "colour":"F",
+                "clarity":"Si2",
+                "cut":"Excellent",
+                "polish":"Good",
+                "symmetry":"Excellent"
+            },
+            {
+               "scale":"0.45ct",
+               "colour":"G",
+               "clarity":"Si2",
+               "cut":"Very Good",
+               "polish":"Excellent",
+               "symmetry":"Good"
+           },{
+               "scale":"0.47ct",
+               "colour":"S",
+               "clarity":"Si2",
+               "cut":"Good",
+               "polish":"Good",
+               "symmetry":"Good"
+           }
+            ]},
+            {
+              "image":"yellow.png",
+              "name":"Yellow Sapphire ",
+              "details":[{
+                "scale":"0.44ct",
+                "colour":"F",
+                "clarity":"VS1",
+                "cut":"Very Good",
+                "polish":"Very Good",
+                "symmetry":"Good"
+            },
+            {
+               "scale":"0.45ct",
+               "colour":"G",
+               "clarity":"Si5",
+               "cut":"Excellent",
+               "polish":"Fine",
+               "symmetry":"Good"
+           },{
+               "scale":"0.47ct",
+               "colour":"M",
+               "clarity":"Si2",
+               "cut":"Excellent",
+               "polish":"Very Good",
+               "symmetry":"Excellent"
+           }
+            ]},
+              {
+                  "image":"silver.png",
+                  "name":"Diamond",
+                  "details":[{
+                    "scale":"0.44ct",
+                    "colour":"F",
+                    "clarity":"Si2",
+                    "cut":"Very Good",
+                    "polish":"Very Good",
+                    "symmetry":"Good"
+                },
+                {
+                   "scale":"0.45ct",
+                   "colour":"F",
+                   "clarity":"sav",
+                   "cut":"Very Good",
+                   "polish":"Nice",
+                   "symmetry":"Very Good"
+               },{
+                   "scale":"0.47ct",
+                   "colour":"L",
+                   "clarity":"VH3",
+                   "cut":"Very Good",
+                   "polish":"Wow",
+                   "symmetry":"Niice"
+               }
+                ]}
+                  ,
+            {
+              "image":"green.png",
+              "name":"Emerland",
+              "details":[{
+                "scale":"0.44ct",
+                "colour":"G",
+                "clarity":"asgas",
+                "cut":"Excellent",
+                "polish":"Very Good",
+                "symmetry":"Nice"
+            },
+            {
+               "scale":"0.45ct",
+               "colour":"snb",
+               "clarity":"ten",
+               "cut":"Wow",
+               "polish":"Very",
+               "symmetry":"Fine"
+           },{
+               "scale":"0.47ct",
+               "colour":"abs",
+               "clarity":"ag65",
+               "cut":"Good",
+               "polish":"Good",
+               "symmetry":"Good"
+           }
+            ]},
+              {
+                  "image":"blue.png",
+                  "name":"Sapphire",
+                  "details":[{
+                    "scale":"0.44ct",
+                    "colour":"mgf",
+                    "clarity":"dfn",
+                    "cut":"Very",
+                    "polish":"Very",
+                    "symmetry":"Good"
+                },
+                {
+                   "scale":"0.45ct",
+                   "colour":"P",
+                   "clarity":"as",
+                   "cut":"Very",
+                   "polish":"Very",
+                   "symmetry":"Good"
+               },{
+                   "scale":"0.47ct",
+                   "colour":"O",
+                   "clarity":"H55",
+                   "cut":"Excellent",
+                   "polish":"Excellent",
+                   "symmetry":"Excellent"
+               }
+                ]}
+                ]
+      },
+      {
+        "position": "right",
+        "config": "d5200eeac6f2c2f13031970e96eae4e8907cd6e9",
+        "name": "Multicolor",
+        "image":"Union (3).png",
+        "stonesOptions":[{
+            "image":"ruby.png",
+            "name":"ruby",
+            "details":[{
+                "scale":"0.44ct",
+                "colour":"F",
+                "clarity":"Si2",
+                "cut":"Excellent",
+                "polish":"Good",
+                "symmetry":"Excellent"
+            },
+            {
+               "scale":"0.45ct",
+               "colour":"G",
+               "clarity":"Si2",
+               "cut":"Very Good",
+               "polish":"Excellent",
+               "symmetry":"Good"
+           },{
+               "scale":"0.47ct",
+               "colour":"S",
+               "clarity":"Si2",
+               "cut":"Good",
+               "polish":"Good",
+               "symmetry":"Good"
+           }
+            ]
+        },
+            {
+              "image":"yellow.png",
+              "name":"Yellow Sapphire",
+              "details":[{
+                "scale":"0.44ct",
+                "colour":"F",
+                "clarity":"VS1",
+                "cut":"Very Good",
+                "polish":"Very Good",
+                "symmetry":"Good"
+            },
+            {
+               "scale":"0.45ct",
+               "colour":"G",
+               "clarity":"Si5",
+               "cut":"Excellent",
+               "polish":"Fine",
+               "symmetry":"Good"
+           },{
+               "scale":"0.47ct",
+               "colour":"M",
+               "clarity":"Si2",
+               "cut":"Excellent",
+               "polish":"Very Good",
+               "symmetry":"Excellent"
+           }
+            ]},
+              {
+                  "image":"silver.png",
+                  "name":"Diamond",
+                  "details":[{
+                    "scale":"0.44ct",
+                    "colour":"F",
+                    "clarity":"Si2",
+                    "cut":"Very Good",
+                    "polish":"Very Good",
+                    "symmetry":"Good"
+                },
+                {
+                   "scale":"0.45ct",
+                   "colour":"F",
+                   "clarity":"sav",
+                   "cut":"Very Good",
+                   "polish":"Nice",
+                   "symmetry":"Very Good"
+               },{
+                   "scale":"0.47ct",
+                   "colour":"L",
+                   "clarity":"VH3",
+                   "cut":"Very Good",
+                   "polish":"Wow",
+                   "symmetry":"Niice"
+               }
+                ]},
+                  {
+                    "image":"blue.png",
+                    "name":"Sapphire",
+                    "details":[{
+                        "scale":"0.44ct",
+                        "colour":"mgf",
+                        "clarity":"dfn",
+                        "cut":"Very",
+                        "polish":"Very",
+                        "symmetry":"Good"
+                    },
+                    {
+                       "scale":"0.45ct",
+                       "colour":"P",
+                       "clarity":"as",
+                       "cut":"Very",
+                       "polish":"Very",
+                       "symmetry":"Good"
+                   },{
+                       "scale":"0.47ct",
+                       "colour":"O",
+                       "clarity":"H55",
+                       "cut":"Excellent",
+                       "polish":"Excellent",
+                       "symmetry":"Excellent"
+                   }
+                    ]}
+                ]
+      }
+    ]
+  }]

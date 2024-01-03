@@ -168,6 +168,21 @@ h3{
 #options button:active{
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .canvas-div {
   height: 100vh;
   background-color: rgb(209, 209, 209);
@@ -176,7 +191,19 @@ h3{
   position: absolute;
   top: 0;
   left: 0;
+  visibility: hidden;
  
+ 
+  
+}
+
+
+
+#webGI-canvas{
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display:flex;
   
 }
 #canvasUI{
@@ -184,26 +211,148 @@ h3{
   position: absolute;
   width: 100vw;
   height: 100vh;
-  pointer-events: none;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
  
 }
-
 .close-button {
   
   margin: 170px 0 0 71px;
   pointer-events: auto;
+  width: 100px;
   cursor: pointer;
   background: rgb(243, 243, 243);
   border-width: 1px;
   padding: 8px 30px;
   border-radius: 15px;
   color: rgb(88, 134, 119);
-  border-color: rgb(88, 134, 119);;
-
-
-}
-#webGI-canvas{
-  height: 100%;
-  width: 100%;
+  border-color: rgb(88, 134, 119);
   position: relative;
+  right: 45%;
+  
+
+
 }
+#config{
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  align-items: center;
+ 
+}
+#ProductOptions{
+ 
+ 
+  background-color: rgb(241, 241, 241);
+  
+  height:80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  flex-wrap: wrap;
+  border-radius: 40px;
+  padding: 5px 30px;
+  column-gap: 1px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(6, 67, 117);
+  display: none;
+
+  
+ 
+}
+
+
+
+#ProductConfig{
+ 
+
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  
+  
+  
+  
+
+
+
+}
+#variant{
+  display: flex;
+  column-gap: 10px;
+  margin-left: 10px;
+
+  
+
+}
+#variant img{
+  background-color: transparent;
+}
+#stones{
+  display: flex;
+  column-gap: 10px;
+
+}
+#alloys{
+  display: flex;
+  column-gap: 10px;
+
+}
+#diamond{
+  cursor:pointer;
+   margin:0 12px
+}
+
+#diamond-details{
+  width: 170px;
+  height: 210px;
+  border-radius: 20px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ padding-left: 18px;
+ border-style: solid;
+ border-width: 2px;
+ border-color:#52807E;
+
+ 
+ margin-bottom: 30px;
+ background-color: #ffffffdc;
+ 
+
+ 
+}#details{
+  
+  display: flex;
+  flex-wrap: nowrap;
+  column-gap: 20px;
+}
+#contain{
+  display: flex;
+
+}
+#CloseProduct{
+  color: brown;
+  height: 20px;
+  border-radius: 2px;
+  font-size: 20px;
+  margin-left: -30px;
+  margin-top: 30px;
+  cursor: pointer;
+  display: none;
+ 
+
+}
+
+
+
+
