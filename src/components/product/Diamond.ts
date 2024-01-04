@@ -1,11 +1,11 @@
 export default function Diamond() {
     let temp = document.createElement("template");
-    const html = /*html*/ `<div style="display:flex; column-gap:45px;">
+    const html = /*html*/ `<div style="display:flex; column-gap:45px;color:#52807E;font-family: 'Neue Haas Grotesk Display Pro', sans-serif;">
      
-     <div id="naturalOption" style="  cursor: pointer; font-weight:bold; font-size:20px">
+     <div id="naturalOption" style="  cursor: pointer; font-size:18px">
          Natural
      </div>
-     <div id="labGrownOption" style="  cursor: pointer;font-weight:bold; font-size:20px; margin-right:40px">
+     <div id="labGrownOption" style="  cursor: pointer; font-size:18px; margin-right:40px">
          Lab-Grown
      </div>
     

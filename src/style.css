@@ -193,7 +193,7 @@ h3{
   position: absolute;
   top: 0;
   left: 0;
-  visibility: hidden;
+  /* visibility: hidden; */
  
  
   
@@ -215,18 +215,18 @@ h3{
   position: absolute;
   width: 100vw;
   height: 100vh;
-  
+  pointer-events: none;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center; pointer-events: none;
+
  
 }
 
 .close-button {
-  
-  margin: 170px 0 0 71px;
-  pointer-events: auto;
+  position: absolute;
+  top: 170px;
+  left: 67px;
   width: 100px;
   cursor: pointer;
   background: rgb(243, 243, 243);
@@ -236,13 +236,15 @@ h3{
   color: rgb(88, 134, 119);
   border-color: rgb(88, 134, 119);
   position: relative;
-  right: 45%;
-  
-
-
+}
+#content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
-/* Enable pointer events for other interactive elements */
+.close-button,
 #diamond,
 #ProductOptions,
 #ProductConfig,
@@ -269,7 +271,7 @@ h3{
  
   background-color: rgb(241, 241, 241);
   
-  height:80px;
+  height:70px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -326,6 +328,13 @@ h3{
   column-gap: 10px;
 
 }
+
+
+/* #diamond-details.bordered {
+  border: 1px solid #000; 
+} */
+
+
 #alloys{
   display: flex;
   column-gap: 10px;
