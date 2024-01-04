@@ -37,6 +37,7 @@ export default function ProductConfig(variants:any[]=[],stones:any[]=[]) {
       DiamondsContainer.addEventListener('click',()=>{
        const sij= document.getElementById("ProductOptions")!
        document.getElementById("CloseProduct")!.style.display="block"
+       document.getElementById('details')!.style.display="none"
      
        
        sij.style.display="flex"

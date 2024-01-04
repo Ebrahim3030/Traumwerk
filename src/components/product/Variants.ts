@@ -12,13 +12,15 @@ export default function Variants(image: string, alloys: any[]) {
   variantButton.addEventListener('click', () => {
     document.getElementById('ProductOptions')!.style.display="flex"
     document.getElementById("CloseProduct")!.style.display="block"
+    document.getElementById('details')!.style.display="none"
+    
 
  
     renderAlloys(alloys);
    
 
   });
-  let currentSelectedVariant: HTMLElement | null = null;
+
 
 
   

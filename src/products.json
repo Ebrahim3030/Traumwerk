@@ -6,22 +6,7 @@
     "measurements": "12mm x 12mm",
     "article_number": "123456789",
     "variants": [
-      {
-        "id": 129,
-        "art_no": 1234,
-        "name": "Gold 585 classic",
-        "image":"Group.png",
-        "alloys": [{
-            "image":"whitegold.png",
-        "name":"White Gold"},
-            {
-              "image":"yellowgold.png",
-              "name":"Yellow Gold"},
-              {
-                  "image":"rosegold.png",
-                  "name":"Rose Gold"}
-              ]
-      },
+     
       {
         "id": 155,
         "art_no": 3456,

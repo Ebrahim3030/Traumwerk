@@ -17,6 +17,7 @@ export default function StoneConfig(image:string, stonesOptions:any[]) {
     stonesButton.addEventListener("click",()=>{
         document.getElementById('ProductOptions')!.style.display="flex"
         document.getElementById("CloseProduct")!.style.display="block"
+        document.getElementById('details')!.style.display="none"
        
         renderStonesOptions(stonesOptions)
 

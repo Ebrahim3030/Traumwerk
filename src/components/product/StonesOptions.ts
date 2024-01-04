@@ -4,7 +4,7 @@ export default function StonesOptiones(image:string,name:string,details:any[]) {
     let temp = document.createElement("template");
     const html = /*html*/ `<div style="cursor:pointer; display:flex; align-items: center;
     justify-content: center; flex-direction:column; row-gap:10px; padding:5px 2px;
-     border-radius: 20px; margin-right:5px;width:110px;color:#777777 "  >
+     border-radius: 20px;width:110px;color:#777777 "  >
     
     <img src="./${image}"/>
     <div ">

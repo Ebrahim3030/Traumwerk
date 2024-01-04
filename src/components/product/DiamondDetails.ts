@@ -8,7 +8,7 @@ export default function DiamondDetails(scale: string, colour: string, clarity: s
 
         <div style="display:flex; column-gap:15px">
 
-            <div style="display:flex felx-direction:column; color:#878787">
+            <div style="display:flex felx-direction:column; color:#878787;">
                 <div>Colour</div>
                 <div>Clarity </div>
                 <div>Cut </div>
@@ -16,7 +16,7 @@ export default function DiamondDetails(scale: string, colour: string, clarity: s
                 <div>Symmetry</div>
             </div>
 
-            <div style="display:flex felx-direction:column; color:#52807E; font-weight:bold">
+            <div style="display:flex felx-direction:column; color:#52807E; font-family: 'Neue Haas Grotesk Display Pro', sans-serif;">
                 <div>${colour} </div>
                 <div>${clarity} </div>
                 <div>${cut} </div>
@@ -37,9 +37,10 @@ export default function DiamondDetails(scale: string, colour: string, clarity: s
     const originalContent = diamondDetails.innerHTML; 
 
     const showPictureLink = diamondDetails.querySelector("#pic") as HTMLElement;
-    showPictureLink.addEventListener("click", () => {
+    showPictureLink.addEventListener("click", () => { 
+        diamondDetails.innerHTML = ""; 
         const imageElement = document.createElement("div");
-        imageElement.innerHTML = /*html*/ `<div class="option-button" >
+        imageElement.innerHTML = /*html*/ `<div class="option-button" style="position:absolute;top:0;left:25px" >
             <button style="background-color:transparent; color:rgb(85, 9, 6); margin-left:135px;cursor:pointer ;
             border-weight:solid;border-width:1px;border-color:rgb(85, 9, 6);padding:5px 9px; border-radius:100%" id="cl">
              x
@@ -53,7 +54,8 @@ export default function DiamondDetails(scale: string, colour: string, clarity: s
         const showDetails = diamondDetails.querySelector("#cl") as HTMLElement;
         showDetails.addEventListener('click', () => {
            
-            diamondDetails.innerHTML = originalContent;
+            imageElement.innerHTML = originalContent;
+            
             
         });
     });
