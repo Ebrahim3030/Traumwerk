@@ -34,7 +34,7 @@
         "position": "left",
         "config": "c8a171ab6d6c1a1eda7c1a34fcbd78f2a1908a12",
         "name": "Gem 02",
-        "image": "Union (1).png",
+        "image": "Union (2).png",
         "stonesOptions": [
           {
             "image": "ruby.png",
@@ -192,7 +192,7 @@
         "position": "center",
         "config": "d5200eeac6f2c2f13031970e96eae4e8907cd6e9",
         "name": "Gem 03",
-        "image": "Union (2).png",
+        "image": "Union (1).png",
         "stonesOptions": [
           {
             "image": "ruby.png",
@@ -224,6 +224,7 @@
               }
             ]
           },
+         
           
           {
             "image": "blue.png",
@@ -284,6 +285,35 @@
                 "symmetry": "Niice"
               }
             ]
+          }, {
+            "image": "yellow.png",
+            "name": "Yellow Sapphire",
+            "details": [
+              {
+                "scale": "0.44ct",
+                "colour": "F",
+                "clarity": "VS1",
+                "cut": "Very Good",
+                "polish": "Very Good",
+                "symmetry": "Good"
+              },
+              {
+                "scale": "0.45ct",
+                "colour": "G",
+                "clarity": "Si5",
+                "cut": "Excellent",
+                "polish": "Fine",
+                "symmetry": "Good"
+              },
+              {
+                "scale": "0.47ct",
+                "colour": "M",
+                "clarity": "Si2",
+                "cut": "Excellent",
+                "polish": "Very Good",
+                "symmetry": "Excellent"
+              }
+            ]
           },
           {
             "image": "green.png",
@@ -312,36 +342,6 @@
                 "cut": "Good",
                 "polish": "Good",
                 "symmetry": "Good"
-              }
-            ]
-          },
-          {
-            "image": "yellow.png",
-            "name": "Yellow Sapphire",
-            "details": [
-              {
-                "scale": "0.44ct",
-                "colour": "F",
-                "clarity": "VS1",
-                "cut": "Very Good",
-                "polish": "Very Good",
-                "symmetry": "Good"
-              },
-              {
-                "scale": "0.45ct",
-                "colour": "G",
-                "clarity": "Si5",
-                "cut": "Excellent",
-                "polish": "Fine",
-                "symmetry": "Good"
-              },
-              {
-                "scale": "0.47ct",
-                "colour": "M",
-                "clarity": "Si2",
-                "cut": "Excellent",
-                "polish": "Very Good",
-                "symmetry": "Excellent"
               }
             ]
           }
