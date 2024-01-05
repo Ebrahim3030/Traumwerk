@@ -10,7 +10,6 @@ configurations.forEach(element => {
   document.getElementById("collections")?.appendChild(collectionElements!);
 });
 
-const show3dComponent = show3d();
-document.body.appendChild(show3dComponent);
+
 
 

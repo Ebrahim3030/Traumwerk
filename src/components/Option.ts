@@ -1,4 +1,5 @@
-import show3d from "./show3d"
+import show3d from "./show3d";
+
 export default function Option(name: string, image: string,type:string) {
     let temp = document.createElement("template");
     const html = /*html*/ `<button class="option-button" >
@@ -14,8 +15,10 @@ export default function Option(name: string, image: string,type:string) {
 
     // poping up the 3d div when button clicked
     optionButton.addEventListener('click', () => {
-    
+        const show3dComponent = show3d();
+      
         document.getElementById("canvas-div")!.style.visibility="visible"
+        
       
       });
       

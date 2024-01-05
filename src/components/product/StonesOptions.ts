@@ -1,4 +1,5 @@
 import { MaterialPresetPlugin } from "../viewer/MaterialPresetPlugin";
+import { getDiamondUrl } from "../viewer/Shared";
 import DiamondDetails from "./DiamondDetails";
 
 export default function StonesOptiones(image: string, categoryName: string, name: string, details: any[]) {
@@ -39,27 +40,12 @@ function handleStonesOptionesClick(clickedStonesOptiones: HTMLElement, categoryN
 
   clickedStonesOptiones.style.color = "black";
  
-  ((window as any).materialPresetsPlugin as MaterialPresetPlugin).apply(categoryName, getMaterialUrl(name));
+  ((window as any).materialPresetsPlugin as MaterialPresetPlugin).apply(categoryName, getDiamondUrl(name));
 
   currentSelectedStonesOptiones = clickedStonesOptiones;
 }
 
-function getMaterialUrl(name: string) {
-  switch (name) {
-    case "Ruby":
-      return "/materials/gem/ruby-1.dmat";
-    case "Diamond":
-      return "/materials/gem/diamond-white-1.dmat";
-    case "Yellow Sapphire":
-      return "/materials/gem/sapphire-yellow.dmat";
-    case "Emerland":
-      return "/materials/gem/emerald-1.dmat";
-    case "Sapphire":
-      return "/materials/gem/sapphire-1.dmat";
-  }
 
-  return "";
-}
 
 function renderStoneDetails(details: any[]) {
   const detailsContainer = document.getElementById("details")!;

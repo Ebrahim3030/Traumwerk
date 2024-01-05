@@ -1,3 +1,5 @@
+import { getMaterialUrl } from "../viewer/Shared";
+
 export default function Alloys(categoryName: string, image: string, name: string) {
   let temp = document.createElement("template");
   const html = /*html*/ `<div style="cursor:pointer; display:flex; align-items: center;
@@ -38,15 +40,3 @@ function handleClickAlloy(clickedAlloy: HTMLElement, categoryName: string, name:
   currentSelectedAlloys = clickedAlloy;
 }
 
-function getMaterialUrl(name: string) {
-  switch (name) {
-    case "Yellow Gold":
-      return "/materials/metal/gold-yellow-750.pmat";
-    case "White Gold":
-      return "/materials/metal/gold-white-750.pmat";
-    case "Rose Gold":
-      return "/materials/metal/gold-rose-750.pmat";
-  }
-
-  return "";
-}
