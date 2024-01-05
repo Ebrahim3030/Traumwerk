@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "version": 4.5,
+    "type": "Material",
+    "generator": "Material.toJSON"
+  },
+  "uuid": "3AC905F9-2617-4F78-9455-C62BDF3ABC3C",
+  "type": "MeshPhysicalMaterial",
+  "name": "Material #87",
+  "color": 3618618,
+  "roughness": 0.03,
+  "metalness": 0.8,
+  "sheen": 0,
+  "sheenColor": 0,
+  "sheenRoughness": 1,
+  "emissive": 0,
+  "specularIntensity": 1,
+  "specularColor": 16777215,
+  "clearcoat": 0,
+  "clearcoatRoughness": 0,
+  "envMapIntensity": 1,
+  "reflectivity": 0.40000000000000013,
+  "refractionRatio": 0.98,
+  "transmission": 0,
+  "thickness": 0,
+  "attenuationDistance": 0,
+  "attenuationColor": 16777215,
+  "depthFunc": 3,
+  "depthTest": true,
+  "depthWrite": true,
+  "colorWrite": true,
+  "stencilWrite": false,
+  "stencilWriteMask": 255,
+  "stencilFunc": 519,
+  "stencilRef": 0,
+  "stencilFuncMask": 255,
+  "stencilFail": 7680,
+  "stencilZFail": 7680,
+  "stencilZPass": 7680,
+  "userData": {
+    "appliedMeshes": {}
+  }
+}
