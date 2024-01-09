@@ -6,7 +6,7 @@ import Option from './Option';
 export default function Collections(collectionName: string, image: string, options: any[]) {
     let temp = document.createElement("template");
     const html = /*html*/ `<button class="collection-button">
-          <img src="/${image}"  style="width: 100%; height: 70%; object-fit: cover; border-radius: 12px;margin-top:0">
+          <img src="/${image}"  style="width: 100%; height: 70%; object-fit: contain; border-radius: 12px;">
           <span style="color: black; font-size: 8px; margin-top: 0;">${collectionName}</span>
       </button>`;
     const trimmedHtml = html.trim();

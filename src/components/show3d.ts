@@ -42,13 +42,7 @@ export default async function show3d() {
     const productConfig = ProductConfig(element.variants, element.stone_configs);
     document.getElementById("ProductConfig")?.appendChild(productConfig!);
   });
-  const close = document.getElementById("CloseProduct") as HTMLElement;
-
-  close.addEventListener("click", () => {
-    document.getElementById("ProductOptions")!.style.display = "none";
-    document.getElementById("CloseProduct")!.style.display = "none";
-    document.getElementById("details")!.style.display = "none";
-  });
+  
 
   return show3dComponent;
 }

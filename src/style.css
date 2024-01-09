@@ -50,14 +50,12 @@ h3{
   font-size: 10px;
   cursor: pointer;
 }
-#empty{
-  height: 230px;
-}
+
 
 #container {
   display: flex;
   
-  column-gap: 20px;
+  
  
   align-items: flex-start; 
   overflow: hidden;
@@ -79,18 +77,18 @@ h3{
   overflow-y: scroll;
 }
 #collections::-webkit-scrollbar {
-  width: 10px;
+  width: 2px;
+ 
 }
 
 #collections::-webkit-scrollbar-thumb {
-  background-color: #776464;
+  background-color: rgb(122, 112, 112);
   border-radius: 5px;
 }
 
 #collections::-webkit-scrollbar-track {
-  background-color: #ddd;
+  background-color: rgb(34, 30, 30);
 }
-
 .collection-button {
   background-color: rgba(255, 255, 255, 0.5);
   display: flex;
@@ -120,7 +118,7 @@ h3{
 
 
 #options {
-  width: 78%;
+  flex: 1;
   height: 100%;
   display: flex;
   column-gap: 40px;
@@ -171,6 +169,144 @@ h3{
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+
+
+@media all and (max-width: 450px) {
+  #header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    margin-top: 10px;
+   
+    z-index: 3;
+    background-color: transparent;
+    
+    
+    }
+  
+  .chl{
+    margin:0 -30px 40px 0 ;
+    height: 20px;
+    width: 80px;
+   
+  }
+  .logo{
+    margin:0 0 40px -20px ;
+    
+    height: 50px;
+    
+   
+  }
+  #Willkommen{
+    width:80%;
+  }
+  h1{
+    position: absolute;
+    bottom: 0;
+    right: 160px;
+    display: none;
+  
+    
+  }
+  h3{
+   display: none;
+  }
+ 
+  #container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  #collections {
+    width: 100vw;
+    height: 140px;
+    display: flex;
+    align-items: start;
+   flex-wrap: nowrap;
+    
+    justify-content: start;
+    margin: 0 0 0 0 ;
+    flex-direction: row;
+    column-gap: 5px;
+    overflow-x: scroll; 
+    overflow-y: hidden;
+    order: 2;
+   
+  
+  }
+  .collection-button {
+   flex-shrink:0 ;
+    display: flex;
+   
+    cursor: pointer;
+    
+    align-items: center;
+   
+   width: 100px;
+   height: 120px;
+    
+    margin: 5px 8px;
+    transition: box-shadow 0.3s;
+  }
+
+
+
+  
+  
+  #collections::-webkit-scrollbar {
+    width: 2px; 
+    height: 5px;
+  }
+  
+  #collections::-webkit-scrollbar-thumb {
+    width: 2px; /* Adjust this property to control the width of the scrollbar */
+    background-color: #8a2424;
+    border-radius: 5px;
+  }
+  
+  #collections::-webkit-scrollbar-track {
+    background-color: #b4b2b2;
+  }
+
+  
+  #options {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    column-gap: 20px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    
+    overflow-y: auto;
+    order: 1;
+    z-index: 1;
+    margin-top: 90px;
+    
+  }
+  #options button{
+    background-color: rgba(255, 255, 255, 0.5);
+     display: flex;
+      cursor: pointer;
+   
+     flex-direction: column;
+     align-items: center;
+     width: 29%;
+     height: 150px;
+     border-radius: 8px;
+     border:none ;
+     margin: 5px 0 30px 3px;
+     transition: box-shadow 0.2s;
+   }
+   
+}
 
 
 
@@ -257,6 +393,9 @@ h3{
 
 #CloseProduct {
   pointer-events: auto;
+  padding-left: 50px;
+  padding-bottom: 40px;
+ 
 }
 
 #config{
@@ -274,12 +413,12 @@ h3{
   height:70px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
  
-  flex-wrap: wrap;
+  
   border-radius: 40px;
   padding: 5px 30px;
-  
+ 
   border-style: solid;
   border-width: 1px;
   border-color: rgb(6, 67, 117);
@@ -291,6 +430,30 @@ h3{
   
  
 }
+.alloy{
+  cursor:pointer; display:flex; align-items: center;
+    justify-content: center; flex-direction:column;row-gap:4px; 
+    color:#777777;flex-shrink:0 ; width:90px;
+    flex-shrink:0 ;
+     
+}
+.alloy-image.rounded-border {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #777777;
+  border-radius: 50%;
+}
+
+.stones-options{
+  cursor:pointer; display:flex; align-items: center;
+    justify-content: center; flex-direction:column; row-gap:4px;
+     border-radius: 20px;width:108px;color:#777777;flex-shrink:0 ;
+}
+.stones-option-image.rounded-border {
+  filter: drop-shadow(0 0 2px black);
+ 
+}
+
 
 
 
@@ -378,16 +541,63 @@ h3{
 #CloseProduct{
   color: brown;
   height: 20px;
+  width: 20px;
   border-radius: 2px;
   font-size: 20px;
   margin-left: -30px;
   margin-top: 30px;
   cursor: pointer;
-  display: none;
+  
  
 
 }
 
+@media all and (max-width: 600px) {
+
+  #ProductOptions{
+ 
+ 
+   
+   width: 75vw;
+  
+   flex-wrap: nowrap;
+  
+   flex-direction: row;
+
+   
+    column-gap: 10px;
+    overflow-x: scroll; 
+    overflow-y: hidden;
+    
+  
+   
+  }
+
+  
 
 
+.alloy{
+  display: flex;
+  font-size: 12px;
+  width: 75;
+  flex-shrink:0 ;
+}
+.stones-options{
+  font-size: 12px;
+  width: 90px;
+}
+ 
+  
+.close-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  width: 50px;
+  height: 29px;
+  top: 95px;
+  left: 340px;
+}
 
+  
+}

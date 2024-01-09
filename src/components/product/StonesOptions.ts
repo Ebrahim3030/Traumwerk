@@ -4,20 +4,13 @@ import DiamondDetails from "./DiamondDetails";
 
 export default function StonesOptiones(image: string, categoryName: string, name: string, details: any[]) {
   let temp = document.createElement("template");
-  const html = /*html*/ `<div style="cursor:pointer; display:flex; align-items: center;
-    justify-content: center; flex-direction:column; row-gap:10px; padding:5px 2px;
-     border-radius: 20px;width:110px;color:#777777 "  >
+  const html = /*html*/ `<div class="stones-options" >
     
-    <img src="./${image}"/>
-    <div ">
-    ${name}
+    <img src="./${image}" class="stones-option-image"/>
+    <div>
+      ${name}
     </div>
-    
-    
-    
-     
-        
-    </div>`;
+  </div>`;
   const trimmedHtml = html.trim();
   temp.innerHTML = trimmedHtml;
   const StonesOptiones = temp.content.firstElementChild as HTMLElement;
@@ -36,14 +29,18 @@ function handleStonesOptionesClick(clickedStonesOptiones: HTMLElement, categoryN
   if (currentSelectedStonesOptiones) {
     currentSelectedStonesOptiones.style.color = "#777777";
     currentSelectedStonesOptiones.style.boxShadow = "none";
+    currentSelectedStonesOptiones.querySelector(".stones-option-image")?.classList.remove("rounded-border");
   }
 
   clickedStonesOptiones.style.color = "black";
- 
+  clickedStonesOptiones.style.boxShadow = "your-shadow-style"; // Add your desired shadow style
+
   ((window as any).materialPresetsPlugin as MaterialPresetPlugin).apply(categoryName, getDiamondUrl(name));
+  clickedStonesOptiones.querySelector(".stones-option-image")?.classList.add("rounded-border");
 
   currentSelectedStonesOptiones = clickedStonesOptiones;
 }
+
 
 
 

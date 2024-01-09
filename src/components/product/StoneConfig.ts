@@ -16,7 +16,7 @@ export default function StoneConfig(image: string, name: string, stonesOptions: 
 
   stonesButton.addEventListener("click", () => {
     document.getElementById("ProductOptions")!.style.display = "flex";
-    document.getElementById("CloseProduct")!.style.display = "block";
+    // document.getElementById("CloseProduct")!.style.display = "block";
     document.getElementById("details")!.style.display = "none";
 
     renderStonesOptions(name, stonesOptions);
@@ -30,7 +30,22 @@ export default function StoneConfig(image: string, name: string, stonesOptions: 
       const alloyElement = StonesOptions(alloy.image, name, alloy.name, alloy.details);
       alloyContainer.appendChild(alloyElement);
     });
+
+    alloyContainer.appendChild(Close())
   }
 
   return stonesButton;
+}
+export  function Close() {
+  let temp = document.createElement("template");
+  const html = /*html*/ `
+  <img id="CloseProduct"  src="./Union (4).png"/>`;
+  temp.innerHTML = html.trim();
+  const closeButton = temp.content.firstElementChild as HTMLElement;
+
+ closeButton.addEventListener('click',()=>{
+  document.getElementById("ProductOptions")!.style.display = "none";
+ })
+
+  return closeButton;
 }
