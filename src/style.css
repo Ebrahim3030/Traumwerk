@@ -324,7 +324,7 @@ h3{
 .canvas-div {
   height: 100dvh;
   background-color: rgb(209, 209, 209);
-  width: 100dvw;
+  width: 100vw;
   z-index: 1;
   position: absolute;
   top: 0;
