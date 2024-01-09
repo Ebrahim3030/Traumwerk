@@ -596,16 +596,16 @@ h3{
   width: 50px;
   height: 29px;
   top: 95px;
-  left: 340px;
+  left: 310px;
 }
 #diamond-details{
   width: 100px;
-  height: 140px;
+  height: 125px;
   border-radius: 20px;
  display: flex;
  flex-direction: column;
  justify-content: center;
- padding-left: 18px;
+ padding-left: 8px;
  border-style: solid;
  border-width: 2px;
  border-color:#52807E;
@@ -615,7 +615,7 @@ h3{
  background-color: #ffffffdc;
  position: relative;
  
-font-size: 10px;
+font-size: 9px;
 
 }
 }

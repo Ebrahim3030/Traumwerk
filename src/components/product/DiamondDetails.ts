@@ -6,7 +6,7 @@ export default function DiamondDetails(scale: string, colour: string, clarity: s
             ${scale}
         </h2>
 
-        <div style="display:flex; column-gap:15px">
+        <div style="display:flex; column-gap:10px">
 
             <div style="display:flex felx-direction:column; color:#878787;">
                 <div>Colour</div>
