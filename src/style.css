@@ -592,12 +592,14 @@ h3{
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 12px;
-  width: 50px;
-  height: 29px;
+  font-size: 9px;
+  width: 20px;
+  height: 24px;
   top: 95px;
-  left: 40px;
+  left: 35px;
 }
+
+
 #diamond-details{
   width: 100px;
   height: 125px;

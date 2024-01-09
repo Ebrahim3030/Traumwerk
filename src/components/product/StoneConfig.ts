@@ -45,6 +45,7 @@ export  function Close() {
 
  closeButton.addEventListener('click',()=>{
   document.getElementById("ProductOptions")!.style.display = "none";
+  document.getElementById("details")!.style.display = "none";
  })
 
   return closeButton;
