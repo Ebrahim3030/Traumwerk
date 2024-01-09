@@ -322,7 +322,7 @@ h3{
 
 
 .canvas-div {
-  height: 100dvh;
+  height: 100vh;
   background-color: rgb(209, 209, 209);
   width: 100vw;
   z-index: 1;
@@ -350,7 +350,7 @@ h3{
   top: 0;
   position: absolute;
   width: 100vw;
-  height: 100vh;
+  height: 100dvh;
   pointer-events: none;
   display: flex;
   flex-direction: column;
@@ -596,7 +596,7 @@ h3{
   width: 50px;
   height: 29px;
   top: 95px;
-  left: 310px;
+  left: 40px;
 }
 #diamond-details{
   width: 100px;
